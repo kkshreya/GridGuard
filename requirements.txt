@@ -1,0 +1,16 @@
+# Core web app
+Flask==3.1.3
+Werkzeug==3.1.7
+# Machine learning
+scikit-learn==1.8.0
+xgboost>=2.0
+pandas>=2.2
+numpy>=1.26
+joblib>=1.3
+matplotlib>=3.8
+# Neural network (ANN member of the ensemble). If it cannot be installed on your
+# Python version, delete this line - the app still works with XGBoost + Random Forest.
+tensorflow-cpu==2.21.0
+# Testing / production server
+pytest>=8.0
+gunicorn>=22.0
